@@ -29,7 +29,7 @@ do
 	read cond
 	if [[ $cond == "n" ]]; then
 		printf "Выход"
-		exit
+		exit 250
 	else
 		printf "Продолжим\n"
 	fi
